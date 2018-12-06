@@ -1,0 +1,21 @@
+{
+  "name": "bogdan/tester",
+  "description": "test composer package",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "bogdan demchenko",
+      "email": "helpdesk@gerchikco.com"
+    }
+  ],
+  "require":{
+    "php": ">5.4.0",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.9"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
